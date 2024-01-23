@@ -1,0 +1,10 @@
+<section class="contenedor base mt-5">
+    <h2>Galeria</h2>
+
+    <div  class="galeria">
+        <div *ngFor="let i of list" class="imagen">
+            <img src="../../../assets/img/imagen_{{list[i]+1}}.jpg" alt="imagen de galeria{{list[i]+1}}">
+        </div>
+    </div>
+
+</section>
